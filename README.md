@@ -11,3 +11,13 @@ Alteração do Painel (Deixado somente o painel de notícias):
 
 Alteração da Linguagem para Inglês:
 ![Mudar Idioma](/images/change-language-gcp.png?raw=true "Change Language")
+
+Utilizado o Cloud Shell no GCP:
+1. Rodou-se o comando: git clone https://github.com/GoogleCloudPlatform/java-docs-samples.git
+2. Abriu-se um workspace em File > Open Workspace... na pasta java-docs-samples/appengine-java11/quarkus-helloworld
+3. Apertar F5 (Start Debugging)
+4. Abrir um terminal e digitar o comando: mvn clean install
+5. Executar o comando: java -jar quarkus-helloworld-1.0-SNAPSHOT-runner.jar
+
+Resultado abaixo:
+![Cloud Shell Challenge](/images/cloud-shell-gcp.png?raw=true "Cloud Shell")
